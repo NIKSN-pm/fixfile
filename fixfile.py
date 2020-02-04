@@ -2,7 +2,7 @@ from jira import JIRA
 import pandas as pd
 import csv
 
-jira_options = {'server':'https://jira.surfstudio.ru/'}
+jira_options = {'server':'link'}
 jira = JIRA(options=jira_options, basic_auth=('login','password'))
 filename = "csv1.csv"
 res = []
